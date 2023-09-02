@@ -1,0 +1,49 @@
+.movie-form button{
+    background-color: rgb(182, 144, 248);
+    height: 50px;
+    width: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 15px;
+    font-weight: 700;
+    border-style: none;
+    border-radius: 30px;
+}
+
+.movie-form button:hover{
+    background-color: white;
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+}
+
+.movie-form input{
+    width: 150px;
+    height: 50px;
+    color: white;
+    border: 2px solid white;
+    padding-left: 10px;
+}
+
+.movie-form input::placeholder{
+    color: white;
+}
+
+.movie-form hr{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.movie-form h2{
+    font-size: 40px;
+}
