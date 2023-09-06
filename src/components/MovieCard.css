@@ -11,6 +11,11 @@
     height: 200px;
 }
 
+.card img:hover{
+    width: 340px;
+    height: 240px;
+}
+
 .card{
     display: flex;
     margin-bottom: 20px;

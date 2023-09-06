@@ -6,12 +6,12 @@ function Filter({ handleFilterChange }) {
     <div className="filter">
       <input
         type="text"
-        placeholder="Filter by title"
+        placeholder="filter by title"
         onChange={(e) => handleFilterChange('title', e.target.value)}
       />
       <input
         type="number"
-        placeholder="Filter by rating"
+        placeholder="filter by rating"
         onChange={(e) => handleFilterChange('rating', e.target.value)}
       />
     </div>
